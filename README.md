@@ -6,6 +6,21 @@
 -   idf.py erase_flash
 -   ls /dev/tty*   // Kiem ta cong COM tren ubuntu
 -   sudo chmod a+rw /dev/ttyUSB0      
+
+#Git
+    Cau hinh Git Global 
+-   git config --global user.name "Your Name"
+-   git config --global user.email "your_email@example.com"
+    
+    Theem SSH:
+-   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+-   cat ~/.ssh/id_rsa.pub     // Show text of ssh key. copy to ssh setting on github setting
+-   ssh -T git@github.com   // check ssh connect 
+-   git remote set-url origin git@github.com:username/repo.git  // connect
+
+
+
+
 // Sử dụng lệnh sudo chmod a+rw /dev/ttyUSB0 để cấp quyền đọc (r) và ghi (w) cho tất cả các người dùng (a) vào cổng serial /dev/ttyUSB0. Tuy nhiên, cách này mở cửa cho mọi người truy cập vào cổng serial và có thể có vấn đề về bảo mật.
 
 # Examples
