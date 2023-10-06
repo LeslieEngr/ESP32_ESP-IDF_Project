@@ -1,3 +1,13 @@
+# The most of commands:
+-   idf.py menuconfig
+-   idf.py build
+-   idf.py -p /dev/ttyUSB0 flash
+-   idf.py monitor 
+-   idf.py erase_flash
+-   ls /dev/tty*   // Kiem ta cong COM tren ubuntu
+-   sudo chmod a+rw /dev/ttyUSB0      
+// Sử dụng lệnh sudo chmod a+rw /dev/ttyUSB0 để cấp quyền đọc (r) và ghi (w) cho tất cả các người dùng (a) vào cổng serial /dev/ttyUSB0. Tuy nhiên, cách này mở cửa cho mọi người truy cập vào cổng serial và có thể có vấn đề về bảo mật.
+
 # Examples
 
 This directory contains a range of example ESP-IDF projects. These examples are intended to demonstrate parts of the ESP-IDF functionality, and to provide code that you can copy and adapt into your own projects.
