@@ -79,7 +79,7 @@ void app_main(void)
 {
     //zero-initialize the config structure.
     gpio_config_t io_conf = {};
-    //disable interrupt
+    //disable interrupt  
     io_conf.intr_type = GPIO_INTR_DISABLE;
     //set as output mode
     io_conf.mode = GPIO_MODE_OUTPUT;

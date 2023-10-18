@@ -1,0 +1,5 @@
+{
+    "idf.port": "/dev/ttyUSB0",
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.flashType": "UART"
+}
